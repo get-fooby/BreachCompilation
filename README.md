@@ -1,5 +1,7 @@
-# BreachCompilation
+# Replace the first ; with a :
 
-ALL THE TOOLS IN BreachCompilation
+`find . -name \*.txt -type f  -exec sed -i 's/;/:/' {} \;`
 
-MAGNET TORRENT : magnet:?xt=urn:btih:7FFBCD8CEE06ABA2CE6561688CF68CE2ADDCA0A3&dn=BreachCompilation
+
+
+
